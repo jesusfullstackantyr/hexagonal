@@ -3,4 +3,8 @@ export class Book {
         readonly id:number,
         readonly title:string
     ){}
+
+    validator(data:any[]) {
+        
+    }
 }

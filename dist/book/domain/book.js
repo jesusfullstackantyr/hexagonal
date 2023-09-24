@@ -6,5 +6,7 @@ class Book {
         this.id = id;
         this.title = title;
     }
+    validator(data) {
+    }
 }
 exports.Book = Book;

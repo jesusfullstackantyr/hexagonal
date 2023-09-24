@@ -1,4 +1,5 @@
-export interface AuthRepository  {
-    login(email:string,password:string):Promise<any | null>;
-    logout():Promise<any>;
+import { Auth } from "./auth";
+
+export interface authRepository {
+    verifiryUser(credentials:Auth):Promise<Auth | null>;
 }
